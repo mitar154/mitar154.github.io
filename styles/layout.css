@@ -1,0 +1,5 @@
+@media(max-width: 570px){
+    #introductionGreeting {
+        margin: 25px 50px 25px 50px;
+    }
+}

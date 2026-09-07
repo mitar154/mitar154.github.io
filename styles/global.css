@@ -1,0 +1,37 @@
+
+/* 
+Color Palette:
+Vintage Grape: 493548
+Dusty Grape: 4B4E6D
+Air Force Blue: 6A8D92
+Muted Teal: 80B192
+Light Green: A1E887
+*/
+
+/*
+Font Families (Google Fonts):
+Manrope
+Merriweather
+*/
+
+body {
+    margin: 0;
+    user-select: none;
+}
+
+img {
+    pointer-events: none;
+}
+
+#fullName {
+    font-family: Merriweather;
+}
+
+#academicTitle {
+    font-family: Merriweather;
+}
+
+#passionateAbout {
+    font-family: Manrope;
+    font-weight: normal;
+}

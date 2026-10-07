@@ -1,0 +1,103 @@
+#profilePicture {
+    width: 100%;
+    margin: -6px;
+}
+
+#fullName {
+    font-family: Merriweather;
+    color: #ffd700;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px transparent, 0 0 10px transparent, 0 0 15px transparent, 0 0 20px #ffd700
+     , 0 0 30px #ffd700, 0 0 40px #ffd700, 0 0 55px #ffd700, 0 0 75px #ffd700, 2px 2px 2px rgb(255, 215, 0);
+}
+
+#academicTitle {
+    font-family: Merriweather;
+    color: #A1E887;
+    text-shadow: 0 0 5px transparent, 0 0 10px transparent, 0 0 15px transparent, 0 0 20px #A1E887
+     , 0 0 30px #A1E887, 0 0 40px #A1E887, 0 0 55px #A1E887, 0 0 75px #A1E887, 2px 2px 2px #A1E887;
+}
+
+#passionateAbout {
+    font-family: Manrope;
+    font-weight: normal;
+    color: #6A8D92;
+    text-shadow: 0 0 5px transparent, 0 0 10px transparent, 0 0 15px transparent, 0 0 20px #6A8D92
+     , 0 0 30px #6A8D92, 0 0 40px #6A8D92, 0 0 55px #6A8D92, 0 0 75px #6A8D92, 2px 2px 2px #6A8D92;
+}
+
+.sidebar {
+    background: #000000;
+    background: -moz-linear-gradient(45deg, #000000 0%, #000000 45%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(45deg, #000000 0%, #000000 45%, #FFFFFF 100%);
+    background: linear-gradient(45deg, #000000 0%, #000000 45%, #FFFFFF 100%);
+    -webkit-box-shadow: 5px 5px 38px 8px #000000; 
+    box-shadow: 5px 5px 38px 8px #000000;
+    width: 400px;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.light-show {
+    height: 20px;
+    animation: light-show 10s ease-in-out infinite;
+}
+
+.contact-info-title {
+    font-size: 21px;
+    font-family: Manrope;
+    color: #493548;
+    margin-bottom: 8px;
+}
+
+.contact-list {
+    font-size: 19px;
+    font-family: Manrope;
+    color: #493548;
+    list-style-type: none;
+    padding: 0;  
+    margin: 0;
+}
+
+.author {
+    font-family: Manrope;
+    color: white;
+    font-size: 16px;
+}
+
+.sidebar-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+#soundButton {
+    width: 120px;
+    align-self: center;
+    margin-top: 10px;
+}
+
+#galleryLink {
+    font-family: Manrope;
+    font-weight: bold;
+}
+
+.fa-volume-up {
+    font-size: 35px;
+}
+
+.fa-volume-mute {
+    font-size: 35px;
+}
+
+.fa-linkedin {
+    margin-right: 5px;
+}
+
+.fa-envelope {
+    margin-right: 5px;
+}
+
+.fa-image {
+    margin-right: 5px;
+}

@@ -1,0 +1,15 @@
+.main-section {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 500px;
+}
+
+.main-section-card {
+    -webkit-box-shadow: 24px 24px 36px 1px #000000; 
+    box-shadow: 24px 24px 36px 1px #000000;
+    border: 5px outset #4B4E6D;
+    border-radius: 0px 60px 0px 60px;
+    background-color:wheat;
+    margin: 20px;
+}

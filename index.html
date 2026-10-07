@@ -15,25 +15,68 @@
 
     <script src="https://kit.fontawesome.com/cbd89ecbf1.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="/styles/global.css">
-    <link rel="stylesheet" href="/styles/animations.css">
-    <link rel="stylesheet" href="/styles/introduction.css">
-    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/animations.css">
+    <link rel="stylesheet" href="./styles/introduction.css">
+    <link rel="stylesheet" href="./styles/layout.css">
+    <link rel="stylesheet" href="./styles/sidebar.css">
+    <link rel="stylesheet" href="./styles/main-section.css">
 </head>
 <body>
     <div id="blackScreen">
-        <img id="introductionImage" src="/media/ProfilePicture.jpg" alt="IntroductionPicture">
+        <img id="introductionImage" src="./media/ProfilePicture.jpg" alt="IntroductionPicture">
         <p id="introductionGreeting">Welcome to the official website of Mitar Deretić! I designed and implemented the entire website myself. This website represents a kind of my personal taste and is the result of many years of academic and practical work. I really hope you will like it. I also hope for successful cooperation in the future. <i class="fas fa-smile"></i></p>
         <button id="introductionButton">LET'S BEGIN</button>
     </div>
 
-    <img src="/media/ProfilePicture.jpg" alt="ProfilePicture">
-    <h1 id="fullName">Mitar Deretić</h1>
-    <hr>
-    <h2 id="academicTitle">BSc in Information Technology Engineering</h2>
-    <h3 id="passionateAbout">Passionate About Web & Mobile App Development</h3>
+    <div class="sidebar">
+        <img id="profilePicture" src="./media/ProfilePicture.jpg" alt="ProfilePicture">
+        <div class="light-show"></div>
+        <h1 id="fullName">Mitar Deretić</h1>
+        <hr>
+        <h2 id="academicTitle">BSc in Information Technology Engineering</h2>
+        <h3 id="passionateAbout">Passionate About Web & Mobile App Development</h3>
 
-    <script src="/scripts/animations.js"></script>
-    <script src="/scripts/render.js"></script>
+        <h4 class="contact-info-title">CONTACT INFO:</h4>
+        <ul class="contact-list">
+            <li><i class="fas fa-envelope"></i>mitarderetic32@gmail.com</li>
+            <li><a href="https://www.linkedin.com/in/mitar-dereti%C4%87-861348223/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn Profile</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <a id="galleryLink" href="/gallery"><i class="fas fa-image"></i>GALLERY</a>
+            <button id="soundButton"><i class="fas fa-volume-up"></i><i class="fas fa-volume-mute"></i></button>
+            <p class="author">Mitar Deretić 2026</p>
+        </div>
+    </div>
+
+    <div class="main-section">
+        <div class="main-section-card">
+            <h5>BIOGRAPHY</h5>
+        </div>
+        <div class="main-section-card">
+            <h5>EDUCATION</h5>
+        </div>
+        <div class="main-section-card">
+            <h5>COMPETENCE</h5>
+        </div>
+        <div class="main-section-card">
+            <h5>PROJECTS</h5>
+        </div>
+        <div class="main-section-card">
+            <h5>WORK EXPERIENCE</h5>
+        </div>
+        <div class="main-section-card">
+            <h5>SKILLS</h5>
+        </div>
+        <div class="main-section-card">
+            <h5>INTERESTS</h5>
+        </div>
+        <div class="main-section-card">
+            <h5>ANNOUNCEMENTS</h5>
+        </div>
+    </div>
+
+    <script src="./scripts/animations.js"></script>
+    <script src="./scripts/render.js"></script>
 </body>
 </html>

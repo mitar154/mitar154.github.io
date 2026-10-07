@@ -1,4 +1,3 @@
-
 /* 
 Color Palette:
 Vintage Grape: 493548
@@ -17,21 +16,12 @@ Merriweather
 body {
     margin: 0;
     user-select: none;
+    background-image: url("../media/BackgroundPicture.jpg");
+    display: grid;
+    grid-template-columns: 400px 1fr;
 }
 
 img {
     pointer-events: none;
-}
-
-#fullName {
-    font-family: Merriweather;
-}
-
-#academicTitle {
-    font-family: Merriweather;
-}
-
-#passionateAbout {
-    font-family: Manrope;
-    font-weight: normal;
+    object-fit: cover;
 }

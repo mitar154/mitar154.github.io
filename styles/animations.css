@@ -17,3 +17,11 @@
     0% { opacity: 1; }
     100% { opacity: 0; }
 }
+
+@keyframes light-show {
+    0% { background-color: #493548; }
+    25% { background-color: #6A8D92; }
+    50% { background-color: #80B192; }
+    75% { background-color: #A1E887; }
+    100% { background-color: #493548; }
+}

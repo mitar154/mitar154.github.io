@@ -1,15 +1,28 @@
 const optionNone = "none";
+const footerText = document.getElementById("author");
+let author = "Mitar Deretić";
 
 function noDisplay(elementId){
     document.getElementById(elementId).style.display = optionNone;
 }
 
-function showCurrentYear(){
-    const currentYear = new Date().getFullYear();
+setFooterText();
+
+function getCurrentYear(){
+    return new Date().getFullYear();
 }
 
-function renderText(text){
+function getAuthor(){
+    return author;
+}
 
+function setFooterText(){
+    renderText("author", getAuthor() + " " + getCurrentYear());
+}
+
+function renderText(elementId, text){
+    document.getElementById(elementId)
+	  .insertAdjacentHTML('beforeend', text);
 }
 
 function renderListItems(items){

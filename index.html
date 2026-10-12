@@ -25,7 +25,10 @@
 <body>
     <div id="blackScreen">
         <img id="introductionImage" src="./media/ProfilePicture.jpg" alt="IntroductionPicture">
-        <p id="introductionGreeting">Welcome to the official website of Mitar Deretić! I designed and implemented the entire website myself. This website represents a kind of my personal taste and is the result of many years of academic and practical work. I really hope you will like it. I also hope for successful cooperation in the future. <i class="fas fa-smile"></i></p>
+        <p id="introductionGreeting">Welcome to the official website of Mitar Deretić! I designed and implemented the entire 
+            website myself. This website represents a kind of my personal taste and is the result of many years of academic 
+            and practical work. I really hope you will like it. 
+            I also hope for successful cooperation in the future. <i class="fas fa-smile"></i></p>
         <button id="introductionButton">LET'S BEGIN</button>
     </div>
 
@@ -42,41 +45,126 @@
             <li><i class="fas fa-envelope"></i>mitarderetic32@gmail.com</li>
             <li><a href="https://www.linkedin.com/in/mitar-dereti%C4%87-861348223/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn Profile</a></li>
         </ul>
+
         <div class="sidebar-footer">
-            <a id="galleryLink" href="/gallery"><i class="fas fa-image"></i>GALLERY</a>
-            <button id="soundButton"><i class="fas fa-volume-up"></i><i class="fas fa-volume-mute"></i></button>
-            <p class="author">Mitar Deretić 2026</p>
+            <a id="galleryLink" href="/gallery" target="_blank"><i class="fas fa-image"></i>GALLERY</a>
+            <button id="musicButton"><i id="soundIcon" class="fas fa-volume-up"></i></button>
+            <p id="author" class="author"></p>
+            <audio id="backgroundMusic" loop>
+                <source src="media/BackgroundMusic.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
         </div>
     </div>
 
     <div class="main-section">
         <div class="main-section-card">
-            <h5>BIOGRAPHY</h5>
+            <h5>Biography</h5>
+            <p>Born on September 6, 2001. From an early age, I showed an interest in computers and technology
+                 in general. At first, it was video games, followed by image and video editing. Eventually, as the culmination
+                  of my interest in technology, I began programming—starting with client-side development and moving on to server-side
+                   development. My early projects bear a strong resemblance to the website you see here.</p>
         </div>
         <div class="main-section-card">
-            <h5>EDUCATION</h5>
+            <h5>Education</h5>
+            <ul class="complex-list">
+                <li>
+                    <h6 class="school-name">"Isa Bajic" Elementary School, Kula</h6>
+                    <p class="education-period">(2008-2016)</p>
+                    <p class="education-description"></p>
+                </li>
+                <li>
+                    <h6 class="school-name">"Isidora Sekulic" Grammar School, Novi Sad</h6>
+                    <p class="education-period">(2016-2020)</p>
+                    <p class="education-description"></p>
+                </li>
+                <li>
+                    <h6 class="school-name">Faculty of Technical Sciences, University of Novi Sad</h6>
+                    <p class="education-period">(2020-2025)</p>
+                    <p class="education-description">Information Systems Engineering course. GPA: 9,11.</p>
+                </li>
+             </ul>
         </div>
         <div class="main-section-card">
-            <h5>COMPETENCE</h5>
+            <h5>Competence</h5>
+            <p>During my studies, I acquired competence in the following areas:</p>
+            <ul>
+               <li>Concepts: object-oriented paradigm, web programming,
+                database schema, software architecture, design principles,
+                design patterns, and software testing.</li>
+               <li>Front-end technologies: React and Angular.</li>
+               <li>Back-end technologies: Django, Spring, ASP.NET Core and Node.js.</li>
+               <li>Databases: MongoDB, Postgre SQL, Firebase and Microsoft SQL
+                Server.</li>
+               <li>Programming languages: C#, Python and JavaScript.</li>
+            </ul>
         </div>
         <div class="main-section-card">
-            <h5>PROJECTS</h5>
+            <h5>Projects</h5>
+            <ul class="complex-list">
+                <li>
+                    <h6 class="project-name">Mitar News</h6>
+                    <p class="project-stack"><b>MongoDB, Express.js, React, Node.js</b></p>
+                    <p class="project-description">A fully functional web news portal with the feature to read, add, delete,
+                         and modify articles. Application also supports user registration and comment posting.</p>
+                </li>
+                <li>
+                    <h6 class="project-name">PocketShop</h6>
+                    <p class="project-stack"><b>Android Studio, Java</b></p>
+                    <p class="project-description">A fully functional food ordering mobile app with implemented admin features.</p>
+                </li>
+                <li>
+                    <h6 class="project-name">Toys Maximus</h6>
+                    <p class="project-stack"><b>Angular, ASP .NET Core, Microsoft Server</b></p>
+                    <p class="project-description">A fully functional web store for selling toys. Application supports payment 
+                        creation using Stripe payment processor.</p>
+                </li>
+             </ul>
         </div>
         <div class="main-section-card">
-            <h5>WORK EXPERIENCE</h5>
+            <h5>Work experience</h5>
+            <ul class="complex-list">
+                <li>
+                    <h6 class="company-name">ICodeFactory</h6>
+                    <p class="employment-type"><b>Internship</b></p>
+                    <p class="employment-period">(2024-2024)</p>
+                    <p class="job-description">Established cooperation with the UI/UX team. Acquired theoretical 
+                        knowledge and practical technical skills by working on the development of an internal project</p>
+                </li>
+             </ul>
         </div>
         <div class="main-section-card">
-            <h5>SKILLS</h5>
+            <h5>Skills</h5>
+            <p>My most prominent skills are:</p>
+            <ul>
+               <li>Communication - Precise and assertive, always ready to help colleagues.</li>
+               <li>Learning - I have a desire to improve in every
+                aspect of web programming and
+                programming in general</li>
+            </ul>
         </div>
         <div class="main-section-card">
-            <h5>INTERESTS</h5>
+            <h5>Interests</h5>
+            <p>Some of my interests are:</p>
+           <ul>
+              <li>Gaming (PC and Android)</li>
+              <li>Documentaries</li>
+              <li>TV Shows</li>
+              <li>Researching</li>
+           </ul>
         </div>
         <div class="main-section-card">
-            <h5>ANNOUNCEMENTS</h5>
+            <h5>Announcements</h5>
+            <p>Newest announcements are:</p>
+           <ul>
+              <li>Official website of Mitar Deretić is now available at mitar154.github.io</li>
+              <li>More projects are coming soon!</li>
+           </ul>
         </div>
     </div>
 
     <script src="./scripts/animations.js"></script>
     <script src="./scripts/render.js"></script>
+    <script src="./scripts/sounds.js"></script>
 </body>
 </html>

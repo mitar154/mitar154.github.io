@@ -25,3 +25,7 @@ img {
     pointer-events: none;
     object-fit: cover;
 }
+
+h6 {
+    font-size: 18px;
+}

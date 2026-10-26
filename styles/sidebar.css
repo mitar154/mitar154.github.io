@@ -27,10 +27,7 @@
 }
 
 .sidebar {
-    background: #000000;
-    background: -moz-linear-gradient(45deg, #000000 0%, #000000 45%, #FFFFFF 100%);
-    background: -webkit-linear-gradient(45deg, #000000 0%, #000000 45%, #FFFFFF 100%);
-    background: linear-gradient(45deg, #000000 0%, #000000 55%, #FFFFFF 100%);
+    background: #181717;
     -webkit-box-shadow: 5px 5px 38px 8px #000000; 
     box-shadow: 5px 5px 38px 8px #000000;
     width: 400px;
@@ -100,4 +97,10 @@
 
 .fa-image {
     margin-right: 5px;
+}
+
+@media(max-width: 775px){
+    .sidebar {
+        width: 100%;
+    }
 }

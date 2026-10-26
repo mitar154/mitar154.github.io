@@ -2,7 +2,6 @@ const backgroundMusic = document.getElementById("backgroundMusic");
 const musicButton = document.getElementById("musicButton");
 const soundIcon = document.getElementById("soundIcon");
 
-introductionAnimationButton.addEventListener('pointerdown', playBackgroundMusic);
 musicButton.addEventListener('pointerdown', handleBackgroundMusic);
 
 let isBgMusicActive = false;

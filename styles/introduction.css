@@ -59,3 +59,9 @@
 .trigger-fade-out {
     animation: fade-out 1.5s ease-in-out;
 }
+
+@media(max-width: 570px){
+    #introductionGreeting {
+        margin: 25px 50px 25px 50px;
+    }
+}

@@ -5,7 +5,13 @@ let selectedElement;
 introductionAnimationButton.addEventListener('pointerdown', startIntroductionAnimation);
 
 function startIntroductionAnimation(){
-    noDisplay("introductionButton");
+    backgroundMusic.play().then(() => {
+        isBgMusicActive = true;
+        noDisplay("introductionButton");
+    }).catch(error => {
+        console.log("Browser has blocked the audio:", error);
+    });
+
     noDisplay("introductionGreeting");
     noDisplay("introductionImage");
 

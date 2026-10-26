@@ -16,7 +16,10 @@ Merriweather
 body {
     margin: 0;
     user-select: none;
-    background-image: url("../media/BackgroundPicture.jpg");
+    background-color: #6A8D92;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
     display: grid;
     grid-template-columns: 400px 1fr;
 }
@@ -28,4 +31,18 @@ img {
 
 h6 {
     font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #493548;
+}
+
+@media(max-width: 775px){
+    body {
+        grid-template-columns: 1fr;
+    }
 }

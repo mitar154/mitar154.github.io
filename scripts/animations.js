@@ -5,15 +5,9 @@ let selectedElement;
 introductionAnimationButton.addEventListener('pointerdown', startIntroductionAnimation);
 
 function startIntroductionAnimation(){
-    backgroundMusic.play().then(() => {
-        isBgMusicActive = true;
-        noDisplay("introductionButton");
-    }).catch(error => {
-        console.log("Browser has blocked the audio:", error);
-    });
-
     noDisplay("introductionGreeting");
     noDisplay("introductionImage");
+    noDisplay("introductionButton");
 
     setElementAnimation("blackScreen", "trigger-fade-out");
     setTimeout(() => {

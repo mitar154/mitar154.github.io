@@ -1,0 +1,25 @@
+body {
+    background-color: wheat;
+    padding: 20px;
+}
+
+h1 {
+    font-family: Merriweather;
+    color: #6A8D92;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+}
+
+.fa-buffer {
+    margin-right: 7px;
+}
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 25px;
+    }
+}

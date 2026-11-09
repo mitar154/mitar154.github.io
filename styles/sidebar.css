@@ -71,9 +71,10 @@
     margin-top: 10px;
 }
 
-#galleryLink {
+#miscellaneousLink {
     font-family: Manrope;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .fa-volume-up {
@@ -94,6 +95,11 @@
 
 .fa-image {
     margin-right: 5px;
+}
+
+.fa-buffer {
+    margin-right: 5px;
+    font-size: 23px;
 }
 
 @media(max-width: 775px){

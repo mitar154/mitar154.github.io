@@ -1,7 +1,5 @@
 const introductionAnimationButton = document.getElementById("introductionButton");
 
-let selectedElement;
-
 introductionAnimationButton.addEventListener('pointerdown', startIntroductionAnimation);
 
 function startIntroductionAnimation(){
@@ -13,10 +11,4 @@ function startIntroductionAnimation(){
     setTimeout(() => {
         noDisplay("blackScreen");
     }, 1400);
-}
-
-function setElementAnimation(elementId, animationClass){
-    selectedElement = document.getElementById(elementId);
-
-    selectedElement.classList.add(animationClass);
 }

@@ -31,7 +31,7 @@
             website myself. This website represents a kind of my personal taste and is the result of many years of academic 
             and practical work. I really hope you will like it. 
             I also hope for successful cooperation in the future. <i class="fas fa-smile"></i></p>
-        <button id="introductionButton">LET'S BEGIN</button>
+        <button id="introductionButton">Let's begin!</button>
     </div>
 
     <div class="sidebar">
@@ -39,10 +39,10 @@
         <div class="light-show"></div>
         <h1 id="fullName">Mitar Deretić</h1>
         <hr>
-        <h2 id="academicTitle">BSc in Information Technology Engineering</h2>
-        <h3 id="passionateAbout">Passionate About Web & Mobile App Development</h3>
+        <h2 id="academicTitle"></h2>
+        <h3 id="passionateAbout"></h3>
 
-        <h4 class="contact-info-title">CONTACT INFO:</h4>
+        <h4 class="contact-info-title">Contact info:</h4>
         <ul class="contact-list">
             <li><i class="fas fa-envelope"></i>mitarderetic32@gmail.com</li>
             <li><a href="https://www.linkedin.com/in/mitar-dereti%C4%87-861348223/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn Profile</a></li>
@@ -62,114 +62,54 @@
     <div class="main-section">
         <div class="main-section-card">
             <h5>Biography</h5>
-            <p>Born on September 6, 2001, in Novi Sad, Serbia. From an early age, I showed an interest in computers and technology
-                 in general. At first, it was video games, followed by image and video editing. Eventually, as the culmination
-                  of my interest in technology, I began programming—starting with client-side development and moving on to server-side
-                   development. My early projects bear a strong resemblance to the website you see here.</p>
+            <p id="biography"></p>
         </div>
         <div class="main-section-card">
             <h5>Education</h5>
-            <ul class="complex-list">
-                <li>
-                    <h6 class="school-name">"Isa Bajic" Elementary School, Kula</h6>
-                    <p class="education-period">(2008-2016)</p>
-                    <p class="education-description"></p>
-                </li>
-                <li>
-                    <h6 class="school-name">"Isidora Sekulic" Grammar School, Novi Sad</h6>
-                    <p class="education-period">(2016-2020)</p>
-                    <p class="education-description"></p>
-                </li>
-                <li>
-                    <h6 class="school-name">Faculty of Technical Sciences, University of Novi Sad</h6>
-                    <p class="education-period">(2020-2025)</p>
-                    <p class="education-description"><i>Information Systems Engineering</i> course. GPA: 9,11.</p>
-                </li>
-             </ul>
+            <ul class="complex-list" id="educationList">
+            </ul>
         </div>
         <div class="main-section-card">
             <h5>Competence</h5>
             <p>During my studies, I acquired competence in the following areas:</p>
-            <ul>
-               <li>Concepts: object-oriented paradigm, web programming,
-                database schema, software architecture, design principles,
-                design patterns, and software testing.</li>
-               <li>Front-end technologies: React and Angular.</li>
-               <li>Back-end technologies: Django, Spring, ASP.NET Core and Node.js.</li>
-               <li>Databases: MongoDB, Postgre SQL, Firebase and Microsoft SQL
-                Server.</li>
-               <li>Programming languages: C#, Python and JavaScript.</li>
+            <ul id="competenceList">
             </ul>
         </div>
         <div class="main-section-card">
             <h5>Projects</h5>
-            <ul class="complex-list">
-                <li>
-                    <h6 class="project-name">Mitar News</h6>
-                    <p class="project-stack"><b>MongoDB, Express.js, React, Node.js</b></p>
-                    <p class="project-description">A fully functional web news portal with the feature to read, add, delete,
-                         and modify articles. Application also supports user registration and comment posting.</p>
-                </li>
-                <li>
-                    <h6 class="project-name">PocketShop</h6>
-                    <p class="project-stack"><b>Android Studio, Java</b></p>
-                    <p class="project-description">A fully functional food ordering mobile app with implemented admin features.</p>
-                </li>
-                <li>
-                    <h6 class="project-name">Toys Maximus</h6>
-                    <p class="project-stack"><b>Angular, ASP .NET Core, Microsoft SQL Server</b></p>
-                    <p class="project-description">A fully functional web store for selling toys. Application supports payment 
-                        creation using Stripe payment processor.</p>
-                </li>
+            <ul class="complex-list" id="projectsList">
              </ul>
         </div>
         <div class="main-section-card">
             <h5>Work experience</h5>
-            <ul class="complex-list">
-                <li>
-                    <h6 class="company-name">ICodeFactory</h6>
-                    <p class="employment-type"><b>Internship</b></p>
-                    <p class="employment-period">(2024-2024)</p>
-                    <p class="job-description">Established cooperation with the UI/UX team. Acquired theoretical 
-                        knowledge and practical technical skills by working on the development of an internal project</p>
-                </li>
+            <ul class="complex-list" id="workExperienceList">
              </ul>
         </div>
         <div class="main-section-card">
             <h5>Skills</h5>
             <p>My most prominent skills are:</p>
-            <ul>
-               <li>Communication - Precise and assertive, always ready to help colleagues.</li>
-               <li>Learning - I have a desire to improve in every
-                aspect of web programming and
-                programming in general</li>
+            <ul id="skillsList">
             </ul>
         </div>
         <div class="main-section-card">
             <h5>Interests</h5>
             <p>Some of my interests are:</p>
-           <ul>
-              <li>Gaming (PC and Android)</li>
-              <li>Documentaries</li>
-              <li>TV Shows</li>
-              <li>Researching</li>
+           <ul id="interestsList">
            </ul>
         </div>
         <div class="main-section-card">
             <h5>Announcements</h5>
             <p>Newest announcements are:</p>
-           <ul>
-              <li>Official website of Mitar Deretić is now available at mitar154.github.io</li>
-              <li>More projects are coming soon!</li>
+           <ul id="announcementsList">
            </ul>
         </div>
     </div>
 
-    <script defer src="./scripts/animation.js"></script>
     <script defer src="./scripts/render.js"></script>
     <script defer src="./scripts/background-music.js"></script>
-    <script defer src="./scripts/fetch.js"></script>
     <script defer src="./scripts/footer-text.js"></script>
     <script defer src="./scripts/introduction.js"></script>
+    <script defer src="./scripts/firebase-database.js"></script>
+    <script defer src="./scripts/personal-info.js"></script>
 </body>
 </html>

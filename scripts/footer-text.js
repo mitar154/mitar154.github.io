@@ -12,5 +12,5 @@ function getAuthor(){
 }
 
 function setFooterText(){
-    renderStaticContent("author", getAuthor() + " " + getCurrentYear());
+    renderText("author", getAuthor() + " " + getCurrentYear());
 }

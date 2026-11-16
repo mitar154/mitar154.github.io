@@ -7,7 +7,7 @@ function startIntroductionAnimation(){
     noDisplay("introductionImage");
     noDisplay("introductionButton");
 
-    setElementAnimation("blackScreen", "trigger-fade-out");
+    addElementClass("blackScreen", "trigger-fade-out");
     setTimeout(() => {
         noDisplay("blackScreen");
     }, 1400);

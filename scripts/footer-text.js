@@ -1,4 +1,3 @@
-const footerText = document.getElementById("author");
 let author = "Mitar Deretić";
 
 setFooterText();
@@ -12,5 +11,5 @@ function getAuthor(){
 }
 
 function setFooterText(){
-    renderText("author", getAuthor() + " " + getCurrentYear());
+    renderText("siteAuthor", getAuthor() + " " + getCurrentYear());
 }

@@ -54,7 +54,7 @@
     margin: 0;
 }
 
-.author {
+.site-author {
     font-family: Manrope;
     color: white;
     font-size: 16px;
@@ -70,6 +70,12 @@
     width: 70px;
     align-self: center;
     margin-top: 10px;
+}
+
+#musicAuthor {
+    font-family: Manrope;
+    color: white;
+    font-size: 11px;
 }
 
 #miscellaneousLink {
